@@ -15,22 +15,23 @@ import { RootState } from "../store/store";
 
 const techStack = [
   { name: "React", icon: <FaReact className="text-blue-400 text-6xl" /> },
-  { name: "Redux", icon: <SiRedux className="text-cyan-400 text-6xl" /> },
-  { name: "React Icons", icon: <SiReact className="text-blue-400 text-6xl" /> },
   { name: "Vite", icon: <SiVite className="text-purple-400 text-6xl" /> },
   {
     name: "TypeScript",
     icon: <SiTypescript className="text-blue-600 text-6xl" />,
   },
-  {
-    name: "TailwindCSS",
-    icon: <SiTailwindcss className="text-cyan-400 text-6xl" />,
-  },
+  { name: "Redux", icon: <SiRedux className="text-cyan-400 text-6xl" /> },
   {
     name: "Ant Design",
     icon: <SiAntdesign className="text-red-400 text-6xl" />,
   },
   { name: "NPM", icon: <FaNpm className="text-red-600 text-6xl" /> },
+  { name: "React Icons", icon: <SiReact className="text-blue-400 text-6xl" /> },
+
+  {
+    name: "TailwindCSS",
+    icon: <SiTailwindcss className="text-cyan-400 text-6xl" />,
+  },
 ];
 
 export default function LandingPage() {
@@ -100,6 +101,23 @@ export default function LandingPage() {
           ))}
         </div>
       </div>
+      <motion.p
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="mt-8 text-gray-400 text-center"
+      >
+        Clone the{" "}
+        <a
+          href="https://github.com/Sivasaikrishna19/React-Boilerplate"
+          style={{ cursor: "pointer" }}
+          className="underline"
+        >
+          repo
+        </a>
+        {" and run "}
+        <code className="bg-gray-700 px-2 py-1 rounded">npm i</code> to get
+        started!
+      </motion.p>
 
       <footer className="mt-10 text-gray-500 text-sm flex flex-col items-center">
         <p className="flex items-center">
