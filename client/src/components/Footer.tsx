@@ -20,7 +20,7 @@ export default function Footer() {
 
         {/* GitHub */}
         <a
-          href="https://github.com/nssk"
+          href="https://github.com/Sivasaikrishna19"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-400 hover:text-gray-500 flex items-center space-x-1"
