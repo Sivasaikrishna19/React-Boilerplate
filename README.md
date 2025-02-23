@@ -17,8 +17,8 @@ This is a **production-ready** boilerplate for building modern React application
 
 =
 
-## 🚀 Getting Started
-### 1️⃣ Clone the Repository
+## Getting Started
+### Clone the Repository
 ```sh
 git clone https://github.com/Sivasaikrishna19/React-Boilerplate.git
 cd React-Boilerplate
