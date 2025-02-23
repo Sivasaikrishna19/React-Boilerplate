@@ -28,7 +28,7 @@ cd React-Boilerplate
 npm install
 
 npm run dev
-
+```
 
 ## 🎯 Contributing
 Contributions are welcome!  
@@ -40,4 +40,5 @@ To contribute:
 git checkout -b feature-name
 git commit -m "Added new feature"
 git push origin feature-name
+```
 
