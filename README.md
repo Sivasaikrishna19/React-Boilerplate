@@ -31,6 +31,11 @@ npm install
 npm run dev
 ```
 
+### Customize the pages
+
+Now, **copy and paste this directly** into your **README.md**! 🚀🔥 Let me know if you need any refinements. 😊
+
+
 ## 🎯 Contributing
 Contributions are welcome!  
 To contribute:
