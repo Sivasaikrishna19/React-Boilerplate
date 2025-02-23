@@ -39,13 +39,13 @@ To contribute:
 ```sh
 git checkout -b feature-name
 ```
-3. **Commit your changes:
+3. **Commit** your changes:
 ```sh
 git commit -m "Added new feature"
 ```
-4. **Push to GitHub:
+4. **Push** to GitHub:
 ```sh
 git push origin feature-name
 ```
-5. Open a pull request on GitHub.
+5. Open a **pull request** on GitHub.
 
