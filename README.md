@@ -9,7 +9,7 @@ This is a **production-ready** boilerplate for building modern React application
 **Redux Toolkit** - State management made easy  
 **TailwindCSS** - Utility-first styling for a clean UI  
 **Framer Motion** - Smooth animations for a great user experience  
-=**Ant Design** - Pre-styled UI components  
+**Ant Design** - Pre-styled UI components  
 **Dark Mode & Theme Switching** - Built-in light/dark mode  
 **Custom Hooks & Utility Functions** - Reusable logic for scalability  
 **Tech Stack Carousel** - Horizontally scrollable tech stack  
