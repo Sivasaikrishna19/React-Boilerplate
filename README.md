@@ -15,7 +15,7 @@ This is a **production-ready** boilerplate for building modern React application
 **Tech Stack Carousel** - Horizontally scrollable tech stack  
 **User Management with Redux** - Load and display users dynamically  
 
-=
+
 
 ## Getting Started
 ### Clone the Repository
