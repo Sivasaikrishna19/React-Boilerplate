@@ -33,7 +33,8 @@ npm run dev
 
 ### Customize the pages
 
-Now, **copy and paste this directly** into your **README.md**! 🚀🔥 Let me know if you need any refinements. 😊
+Feel free to modify our main page (LandingPage.tsx) to match your project’s needs.
+You can also update the Features page (Features.tsx) to showcase your own custom functionalities.
 
 
 ## 🎯 Contributing
