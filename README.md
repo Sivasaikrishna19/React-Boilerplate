@@ -36,9 +36,14 @@ To contribute:
 
 1. **Fork** the repository.
 2. **Create a new branch** for your feature:
-   ```sh
+```sh
 git checkout -b feature-name
+```
+
+```sh
 git commit -m "Added new feature"
+```
+```sh
 git push origin feature-name
 ```
 
