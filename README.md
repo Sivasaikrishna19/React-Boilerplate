@@ -33,9 +33,7 @@ npm run dev
 
 ### Customize the pages
 
-Feel free to modify our main page (LandingPage.tsx) to match your project’s needs.
-You can also update the Features page (Features.tsx) to showcase your own custom functionalities.
-
+Feel free to modify our main page (LandingPage.tsx) and Features page (Features.tsx) to match your project’s needs.
 
 ## 🎯 Contributing
 Contributions are welcome!  
