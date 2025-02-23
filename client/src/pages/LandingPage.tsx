@@ -1,5 +1,5 @@
 import { Card } from "antd";
-import { FaReact, FaNpm, FaSun, FaMoon, FaCopyright } from "react-icons/fa";
+import { FaReact, FaNpm, FaSun, FaMoon } from "react-icons/fa";
 import {
   SiTailwindcss,
   SiTypescript,
@@ -44,7 +44,7 @@ export default function LandingPage() {
     <div className="min-h-screen flex flex-col items-center justify-center p-4">
       <button
         onClick={toggleTheme}
-        className="absolute top-4 right-4 p-2 rounded-full border border-gray-600 bg-gray-800 text-white dark:bg-gray-300 dark:text-black transition"
+        className="cursor-pointer absolute top-4 right-4 p-2 rounded-full border border-gray-600 bg-gray-800 text-white dark:bg-gray-300 dark:text-black transition"
       >
         {theme === "dark" ? (
           <FaSun className="text-yellow-400 text-xl" />

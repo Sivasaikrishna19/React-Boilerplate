@@ -1,6 +1,7 @@
 import { Card } from "antd";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
+import { useThemeContext } from "../App";
 
 const featuresList = [
   {
@@ -39,15 +40,30 @@ const featuresList = [
 ];
 
 export default function Features() {
-  const navigate = useNavigate(); // Hook for navigation
+  const navigate = useNavigate();
+  const { theme } = useThemeContext();
+
+  // Conditional styles based on theme
+  const isDarkMode = theme === "dark";
+  const bgColor = isDarkMode ? "bg-gray-900" : "bg-gray-100";
+  const textColor = isDarkMode ? "text-white" : "text-black";
+  const cardBg = isDarkMode
+    ? "bg-gray-800 border-gray-700"
+    : "bg-white border-gray-300";
+  const textMuted = isDarkMode ? "text-gray-400" : "text-gray-500";
+  const btnBg = isDarkMode
+    ? "bg-gray-700 hover:bg-gray-800"
+    : "bg-gray-300 hover:bg-gray-400";
+  const btnText = isDarkMode ? "text-white" : "text-black";
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-6 bg-gray-100 dark:bg-gray-900 text-black dark:text-white">
-      {/* Back Button (Now properly positioned above the title) */}
+    <div
+      className={`min-h-screen flex flex-col items-center justify-center p-6 ${bgColor} ${textColor} transition-all`}
+    >
       <div className="w-full max-w-3xl flex">
         <button
           onClick={() => navigate("/")}
-          className="px-4 py-2 bg-gray-700 hover:bg-gray-800 text-white rounded-lg shadow-md transition-all"
+          className={`px-4 py-2 ${btnBg} ${btnText} rounded-lg shadow-md transition-all`}
         >
           ⬅ Back
         </button>
@@ -67,11 +83,9 @@ export default function Features() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.1 }}
           >
-            <Card className="bg-white dark:bg-gray-800 p-4 rounded-xl shadow-lg border border-gray-300 dark:border-gray-700">
+            <Card className={`${cardBg} p-4 rounded-xl shadow-lg border`}>
               <h2 className="text-xl font-semibold">{feature.title}</h2>
-              <p className="text-gray-500 dark:text-gray-400">
-                {feature.description}
-              </p>
+              <p className={`${textMuted}`}>{feature.description}</p>
             </Card>
           </motion.div>
         ))}
