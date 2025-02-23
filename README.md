@@ -1,6 +1,7 @@
 # React Boilerplate with Vite, TypeScript, Redux, TailwindCSS & More! 
 
-This is a **production-ready** boilerplate for building modern React applications with a well-structured folder hierarchy, Redux state management, custom hooks, and utility functions.
+This is a **production-ready** boilerplate for building modern React applications with a well-structured folder hierarchy, Redux state management, custom hooks, utility functions, **and a lot more basic requirements for smooth development**.
+
 
 ## Features
 **Vite + React** - Fast development and optimized builds  
