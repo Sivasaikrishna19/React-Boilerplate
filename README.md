@@ -23,11 +23,17 @@ This is a **production-ready** boilerplate for building modern React application
 ### Clone the Repository
 ```sh
 git clone https://github.com/Sivasaikrishna19/React-Boilerplate.git
-
+```
+```sh
+cd React-Boilerplate
+```
+```sh
 cd client
-
+```
+```sh
 npm install
-
+```
+```sh
 npm run dev
 ```
 
