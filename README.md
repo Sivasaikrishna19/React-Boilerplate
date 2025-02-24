@@ -24,15 +24,19 @@ This is a **production-ready** boilerplate for building modern React application
 ```sh
 git clone https://github.com/Sivasaikrishna19/React-Boilerplate.git
 ```
+### Navigate to the Project Directory
 ```sh
 cd React-Boilerplate
 ```
+### Navigate to the Client Directory
 ```sh
 cd client
 ```
+### Install Dependencies
 ```sh
 npm install
 ```
+### Start the Development Server
 ```sh
 npm run dev
 ```
