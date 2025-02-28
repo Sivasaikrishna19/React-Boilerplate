@@ -20,7 +20,7 @@ This is a **production-ready** boilerplate for building modern React application
 ### Create a New Project Using the Boilerplate
 
 ```sh
-npx react-ts-vite-template my-app
+npx react-vite-ts-template my-app
 ```
 
 ### Navigate to the Project Directory
