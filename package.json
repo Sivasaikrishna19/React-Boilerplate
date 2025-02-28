@@ -1,6 +1,6 @@
 {
   "name": "react-vite-ts-template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "bin": {
     "react-vite-ts-boilerplate": "./cli.js"
