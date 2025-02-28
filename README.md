@@ -20,17 +20,13 @@ This is a **production-ready** boilerplate for building modern React application
 
 
 ## Getting Started
-### Clone the Repository
+### Create a New Project Using the Boilerplate
 ```sh
-git clone https://github.com/Sivasaikrishna19/React-Boilerplate.git
+npx react-ts-vite-template my-app
 ```
 ### Navigate to the Project Directory
 ```sh
-cd React-Boilerplate
-```
-### Navigate to the Client Directory
-```sh
-cd client
+cd my-app
 ```
 ### Install Dependencies
 ```sh
